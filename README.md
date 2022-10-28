@@ -1,1 +1,9 @@
 # FPFS-kNN
+Fuzzy Parameterized Fuzzy Soft 𝑘-Nearest Neighbor Classifier
+
+Citation: S. Memiş, S. Enginoğlu, and U. Erkan, 2022. Fuzzy Parameterized Fuzzy Soft 𝑘-Nearest Neighbor Classifier, Neurocomputing, 500, 351-378.
+doi: https://doi.org/10.1016/j.neucom.2022.05.041
+
+Abstract:
+
+In this paper, we propose a new kNN algorithm, i.e., Fuzzy Parameterized Fuzzy Soft kNN (FPFS-kNN), based on multiple pseudo-metrics of fuzzy parameterized fuzzy soft matrices (fpfs-matrices). FPFS-kNN can consider the impacts of parameters on classification using pseudo-metrics of fpfs-matrices – a new concept. Furthermore, FPFS-kNN detects the nearest neighbors for each pseudo-metric and classifies data applying the aforementioned multiple distance functions. To demonstrate the classification success of the proposed method, we carry out an experimental study using 35 UCI datasets and comparing it with the state-of-the-art kNN-based and non-kNN-based algorithms. All the methods are trained and tested for ten runs through five-fold cross-validation. We then compare the results of FPFS-kNN with those of the others in terms of the most frequently used measures, such as accuracy (ACC), precision (PRE), recall (REC), micro F-score (MICF), and macro F-score (MACF). Afterward, we pro-vide a statistical evaluation of the results. Experimental and statistical results manifest that the proposed FPFS-kNN, utilized Pearson’s correlation coefficient and denoted by FPFS-kNN, outperforms the state-of-the-art kNN-based algorithms in 24 of 35 datasets in terms of each considered measure and 31 of 35 datasets in terms of accuracy measure. Besides, the results showed that FPFS-kNN performs better than the others for 29 datasets in terms of ACC and MICF rates, and 24 datasets in terms of PRE, REC and MACF rates. Finally, we discuss FPFS-kNN for further research.
